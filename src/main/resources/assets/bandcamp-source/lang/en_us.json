@@ -1,0 +1,12 @@
+{
+  "plugin.bandcamp.source": "Bandcamp",
+  "source.bandcamp": "Bandcamp",
+  "config.bandcamp.source.enabled": "Enabled",
+  "error.bandcamp.disabled": "The Bandcamp source is disabled.",
+  "error.bandcamp.invalid_track_id": "That Bandcamp track URL is invalid.",
+  "error.bandcamp.no_mp3": "This Bandcamp track has no public mp3-128 stream.",
+  "error.bandcamp.track_not_found": "Bandcamp track not found.",
+  "error.bandcamp.unsupported_link": "That Bandcamp link is not a public track link.",
+  "error.bandcamp.invalid_response": "Bandcamp returned unexpected track data.",
+  "error.bandcamp.request_failed": "Bandcamp request failed."
+}

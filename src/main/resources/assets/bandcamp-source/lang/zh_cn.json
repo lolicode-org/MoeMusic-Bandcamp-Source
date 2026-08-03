@@ -1,0 +1,12 @@
+{
+  "plugin.bandcamp.source": "Bandcamp",
+  "source.bandcamp": "Bandcamp",
+  "config.bandcamp.source.enabled": "启用",
+  "error.bandcamp.disabled": "Bandcamp 音源已禁用。",
+  "error.bandcamp.invalid_track_id": "这个 Bandcamp 曲目链接无效。",
+  "error.bandcamp.no_mp3": "这个 Bandcamp 曲目没有公开的 mp3-128 音频流。",
+  "error.bandcamp.track_not_found": "未找到 Bandcamp 曲目。",
+  "error.bandcamp.unsupported_link": "这不是公开的 Bandcamp 单曲链接。",
+  "error.bandcamp.invalid_response": "Bandcamp 返回了意外的曲目数据。",
+  "error.bandcamp.request_failed": "Bandcamp 请求失败。"
+}

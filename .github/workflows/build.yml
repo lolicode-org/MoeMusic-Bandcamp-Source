@@ -37,8 +37,6 @@ jobs:
       - name: make gradle wrapper executable
         run: chmod +x ./gradlew
       - name: build
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: ./gradlew build
       - name: Upload all jars
         uses: actions/upload-artifact@v7
@@ -70,7 +68,7 @@ jobs:
           path: build/libs
 
       - name: Publish release
-        uses: softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda
+        uses: softprops/action-gh-release@3d0d9888cb7fd7b750713d6e236d1fcb99157228
         with:
           tag_name: ${{ github.event.inputs.tag_name }}
           files: build/libs/*-full.jar
