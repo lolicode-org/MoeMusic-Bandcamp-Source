@@ -9,12 +9,19 @@ import org.lolicode.moemusic.api.plugin.pluginConfigSpec
 object BandcampPlugin : Plugin {
     const val PLUGIN_ID = "bandcamp-source"
     const val CONFIG_ID = "bandcamp-source"
+
+    /**
+     * Minecraft Mod ID for Fabric, Forge, and NeoForge loaders.
+     * Must be lowercase alphanumeric with underscores (`^[a-z][a-z0-9_]{1,63}$`).
+     */
+    const val MOD_ID = "moemusic_bandcamp_source"
+
     const val SOURCE_ID = "bandcamp"
 
     override val id: String = PLUGIN_ID
     override val configId: String = CONFIG_ID
     override val displayName: LocalizedText = LocalizedText.key("plugin.bandcamp.source")
-    override val version: String = "1.1.0"
+    override val version: String = "1.2.0"
     override val supportedApiVersions: String = ">=2.2.0 <3.0.0"
 
     override val configSpec: PluginConfigSpec<BandcampConfig> =
